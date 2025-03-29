@@ -1,0 +1,10 @@
+.productscards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    align-items: center;
+    overflow: hidden;
+}
+.productscard img{
+    width: 100px;
+}
