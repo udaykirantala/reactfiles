@@ -3,8 +3,23 @@
     flex-wrap: wrap;
     justify-content: baseline;
     align-items: center;
+    gap: 15px;
+    padding:0% 2% 0% 2%;
+}
+.productscard{
+    width: 31%;
+    height: 500px;
+    border: 1px solid rgb(238, 229, 213);
     overflow: hidden;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
 }
 .productscard img{
-    width: 100px;
+    width:100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+.heading{
+    text-align: center;
 }

@@ -1,7 +1,7 @@
 import "./ProductsCards.css"
 
 function Singledata(){
-    return(<h1>ProductsDetails</h1>)
+    return(<h1 className="heading">ProductsDetails</h1>)
 }
 
 function ProductsCards(props){
